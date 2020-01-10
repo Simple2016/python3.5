@@ -1,0 +1,13 @@
+记录
+环境：python 3.5.2 ，pycharm 2018.3, pip 10.0.1
+
+安装requests 类库名：requests
+安装win32api, win32gui, win32con 可能需要升级pip到最新版本（失败后会给出升级命令） 。 类库名： pywin32
+安装PIL 类库名：Pillow
+
+
+打包  PyInstaller
+
+pyinstaller -F -w 文件名.py
+
+注：python3.8 和 PyInstaller 3.5 有冲突， 降级成3.5 就可以了
