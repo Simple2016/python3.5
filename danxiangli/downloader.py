@@ -42,7 +42,7 @@ def download_image(name, image_url):
         response = requests.get(image_url)
     except RequestException:
         return "图像请求出错"
-    file_name = '{}/{}.{}'.format('image', name, 'bmp');
+    file_name = '{}/{}.{}'.format('image', name, 'png');
     with open(file_name, 'wb') as file:
         file.write(response.content)
     return os.path.abspath(file_name)

@@ -19,7 +19,7 @@ if __name__ == '__main__':
     print('下载今天的单向历')
     download_file = downloader.download_image(date, url)
     print('合成')
-    compose_file = imageMaker.compose(tempFileName, download_file)
+    compose_file = imageMaker.composePngToJpg(tempFileName, download_file)
     print('设置桌面')
     bgsetter.setWallPaper(compose_file)
     print('完成')

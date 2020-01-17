@@ -5,6 +5,7 @@
 安装win32api, win32gui, win32con 可能需要升级pip到最新版本（失败后会给出升级命令） 。 类库名： pywin32
 安装PIL 类库名：Pillow
 
+安装opencv 类库名 opencv-python
 
 打包  PyInstaller
 
